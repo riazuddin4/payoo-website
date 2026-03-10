@@ -13,7 +13,7 @@ document.getElementById("login-btn").addEventListener("click", function(){
     if(contactNumber == "01221258040" && pin == "2010"){
         alert("login Success");
         // window.location.replace("/home.html");
-        window.location.assign("/home.html");
+        window.location.assign("home.html");
     }else{
         alert("login Failes");
         return;
